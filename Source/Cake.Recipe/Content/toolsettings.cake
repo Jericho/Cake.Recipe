@@ -41,7 +41,7 @@ public static class ToolSettings
         string codecovTool = "#tool nuget:?package=CodecovUploader&version=0.8.0",
         // This is specifically pinned to 0.7.0 as later versions of same package publish .Net Global Tool, rather than full framework version
         string coverallsTool = "#tool nuget:?package=coveralls.net&version=0.7.0",
-        string gitReleaseManagerTool = "#tool nuget:?package=GitReleaseManager&version=0.19.0",
+        string gitReleaseManagerTool = "#tool nuget:?package=GitReleaseManager&version=0.20.0",
         // This is specifically pinned to 5.0.1 as later versions break compatibility with Unix.
         string gitVersionTool = "#tool nuget:?package=GitVersion.CommandLine&version=5.0.1",
         string reSharperTools = "#tool nuget:?package=JetBrains.ReSharper.CommandLineTools&version=2024.1.4",
@@ -57,7 +57,7 @@ public static class ToolSettings
         string coverallsGlobalTool = "#tool dotnet:?package=coveralls.net&version=1.0.0",
         string gitReleaseManagerGlobalTool = "#tool dotnet:?package=GitReleaseManager.Tool&version=0.19.0",
         string gitVersionGlobalTool = "#tool dotnet:?package=GitVersion.Tool&version=5.12.0",
-        string reportGeneratorGlobalTool = "#tool dotnet:?package=dotnet-reportgenerator-globaltool&version=5.4.16",
+        string reportGeneratorGlobalTool = "#tool dotnet:?package=dotnet-reportgenerator-globaltool&version=4.8.5",
         string wyamGlobalTool = "#tool dotnet:?package=Wyam.Tool&version=2.2.9",
         // This is using an unofficial build of kudusync so that we can have a .Net Global tool version.  This was generated from this PR: https://github.com/projectkudu/KuduSync.NET/pull/27
         string kuduSyncGlobalTool = "#tool dotnet:https://www.myget.org/F/cake-contrib/api/v3/index.json?package=KuduSync.Tool&version=1.5.4-g3916ad7218"
